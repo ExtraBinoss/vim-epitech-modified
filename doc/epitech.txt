@@ -1,0 +1,63 @@
+*epitech.txt* Help vim users in school Epitech
+*Epitech*
+
+==============================================================================
+CONTENTS                                                     *EpitechContents*
+
+  1. Usage .............. |EpitechUsage|
+  2. License ............ |EpitechLicense|
+  3. Bugs ............... |EpitechBugs|
+  4. Contributing ....... |EpitechContributing|
+  5. Changelog .......... |EpitechChangelog|
+  6. Author ............. |EpitechAuthor|
+
+==============================================================================
+1. Usage                                                        *EpitechUsage*
+
+Run `:TekAddHeader` to start, and enter a description for the opened file.
+
+The plugin will add the Epitech header at the top of your file, inserting
+the current year, as well as the file description.
+
+==============================================================================
+2. License                                                    *EpitechLicense*
+
+MIT license.
+
+==============================================================================
+3. Bugs                                                          *EpitechBugs*
+
+If you find any bugs, send me an email (see |EpitechAuthor|) and check
+the bug reports on https://git.x4m3.rocks/x4m3/vim-epitech/issues.
+
+==============================================================================
+4. Contributing                                          *EpitechContributing*
+
+Head over to https://git.x4m3.rocks/x4m3/vim-epitech, clone the git repo,
+do your work, and send patches via email (see |EpitechAuthor|).
+
+==============================================================================
+5. Changelog                                                *EpitechChangelog*
+
+1.2.0 - 2018-12-01
+- Showing trailing spaces
+- Using file name for "project name" in header
+- If file description is empty, a nice message is put instead
+
+1.1.0 - 2018-10-12
+- Respecting the new Epitech norm (4 spaces instead of 8 col tabs)
+- Showed EOL characters
+- Added support for Makefile
+
+1.0.1 - 2018-09-06
+- Fixed a bug where the plugin wouldn't run on linux.
+
+1.0.0 - 2018-09-05
+- Initial release.
+
+==============================================================================
+6. Author                                                      *EpitechAuthor*
+
+Author:  Philippe Loctaux
+Email:   p@philippeloctaux.com
+Website: http://philippeloctaux.com
